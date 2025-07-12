@@ -25,6 +25,10 @@ nav {
     justify-content: space-between;
 }
 
+main {
+    margin: 0 150px;
+}
+
 /* Banner styles */
 
 .banner-title {
@@ -45,18 +49,42 @@ nav {
     border-radius: 10px;
 }
 
-.banner{
+.banner {
     background-image: url(../images/Assets/Hero-bg.png);
     height: 700px;
 }
 
-.banner-description{
+.banner-description {
     text-align: center;
     margin-top: 158px;
 }
 
-.banner-head{
+.banner-head {
     font-family: Raleway;
-font-size: 65px;
-font-weight: 700;
+    font-size: 65px;
+    font-weight: 700;
+}
+
+
+.see-container {
+    display: flex;
+    gap: 200px;
+    margin-top: 70px;
+    align-items: center;
+
+}
+
+.see-title {
+    font-family: Raleway;
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 23px;
+}
+
+.see-description {
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 400;
+    color: #25243280;
+    
 }
